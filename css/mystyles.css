@@ -1,0 +1,83 @@
+
+body {
+
+    font-family: Arial, sans-serif;
+    color: #0a0a0a;
+    background-color:rgb(197, 218, 253); 
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+}
+li {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+header h1 {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(236, 233, 233);
+    min-block-size: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Content Section */
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.feature {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.feature h2 {
+    color: #007bff;
+    font-family: fantasy;
+}
+
+/* Footer */
+footer {
+    background-color: #a7a7aeb9;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-color: #0a0a0a;
+    border: #0a0a0a;
+    border-width: 5px;
+    border-radius: 10px;
+    border-top: 10px;
+}
+.masthead {
+    background-image: url('assets/img/boston.jpg');
+    background-size: contain; /* or background-size: contain; */
+    /* Other styles for your header */
+}
+
